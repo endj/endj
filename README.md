@@ -1,3 +1,18 @@
+```
+usage: imageEncoder.py [-h] -p P [-o O] [-s S] [-e E]
+
+Produce emoji MD table.
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -p P        Path to image file
+  -o O        Path to md output file
+  -s S        Table resolution width
+  -e E        Path to folder of emojis
+```
+
+
+
 | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: | :sound: |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 | :sound: | :mahjong: | :mahjong: | :mahjong: | :white_heart: | :sound: | :white_heart: | :mahjong: | :mahjong: | :white_heart: | :sound: | :white_heart: | :mahjong: | :mahjong: | :mahjong: | :sound: |

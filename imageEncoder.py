@@ -14,7 +14,7 @@ GITHUB_EMOJI_API = 'https://api.github.com/emojis'
 
 def produce_emoji_table(image_path: str, output_path: str, size: int, emoji_folder_path: str) -> str:
     image_scaled = resize_image(load_image(image_path), size)
-    # save_emojis(emoji_folder_path)
+    save_emojis(emoji_folder_path)
     dominant_emoji_colours = calculate_dominant_emoji_colours(
         emoji_folder_path)
     average_emoji_colours = caclulate_average_emoji_colours(emoji_folder_path)
